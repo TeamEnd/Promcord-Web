@@ -11,7 +11,7 @@ const Footer = () => {
                                 Promcord
                             </h4>
                             대표: ! Tim23#9999<br />
-                            Copyright 2021 All PGS &amp; Tim23, All rights reserved.
+                            Copyright 2021 SSKATE &amp; Tim23, All rights reserved.
                         </div>
                         <div className="footer-desc">
                             <span className="footer-box">

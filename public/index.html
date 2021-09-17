@@ -60,5 +60,14 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      if (top.location.href == location.href) {
+        if (top.location.href.indexOf('promcord.cf') < 1 && top.location.href.indexOf('localhost') > 1 && top.location.href.indexOf('127.') > 1 && top.location.href.indexOf('iptime.org') > 1) {
+          location.replace('/OldPage.html')
+        } else {
+          top.location.replace('https://promcord.xyz/')
+        }
+      }
+    </script>
 </body>
 </html>
